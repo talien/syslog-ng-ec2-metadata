@@ -20,4 +20,6 @@ This is a super simple script and an SCL file which can be include in syslog-ng.
 
 All of the tags are also added as global variables. The tag name syntax is the following: `aws.Tag.<tag_name>`
 
-If this script runs on a non-EC2 machine, the output will be empty.
+If this script runs on a non-EC2 machine, the output will be empty. 
+
+A proper IAM role with `DescribeInstance` permission on the ec2 machine is necessary.
