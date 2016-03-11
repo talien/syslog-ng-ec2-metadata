@@ -1,0 +1,3 @@
+@module confgen context(root) name(ec2_metadata) exec("/etc/syslog-ng/ec2metadata.py")
+
+ec2_metadata()
